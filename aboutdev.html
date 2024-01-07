@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand's Portfolio</title>
+  <link rel="stylesheet" href="aboutsyles.css">
+  <link rel="shortcut icon" href="./potfolio logo.png" type="image/x-icon">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+    rel="stylesheet">
+
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
+
+</head>
+
+<body>
+
+
+  <!-- .Header -->
+
+
+  <header class="header active" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./potfolio logo.png" width="110" height="53" alt="unigine home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#certification" class="navbar-link" data-nav-link>Certifications</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#internships" class="navbar-link" data-nav-link>Experience</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#footer" class="navbar-link" data-nav-link>Volunteer</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- <a href="https://discord.gg/yY6EDg4UG3" class="btn" data-btn>Contact</a> -->
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- .Preloader -->
+
+
+  <div id="loader">
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <span class="welcome">Welcome....</span>
+  </div>
+
+  <!-- 
+        - #HERO
+      -->
+
+  <div class="hero has-before" id="home">
+    <div class="container">
+
+      <p class="section-subtitle">Hello....</p>
+
+      <h1 class="h1 title hero-title">This is Anand here!<br>An Aspiring Software Developer </h1>
+
+      <a href="https://www.linkedin.com/in/anandsoni992" target="_blank" class="btn" data-btn>Contact Me</a>
+
+      <div class="hero-banner">
+        I am currently a dedicated engineering student pursuing a B.Tech degree in Computer Science. Throughout my
+        academic journey, I have nurtured a keen interest in exploring the diverse aspects of the ever-evolving world of
+        technology.
+
+        I take immense pride in my accomplishments, particularly in obtaining valuable Microsoft
+        certifications including AZ900, AI900, SC900, DP900, MS900 . I served as a Government Intern at the Bhopal
+        Municipal Corporation in association with AICTE, where I was
+        involved in various projects that aim to improve the digital infrastructure and enhance citizen services. This
+        opportunity allowed me to engage with diverse stakeholders, collaborate on innovative solutions, and contribute
+        to the betterment of society.
+
+        I am an enthusiastic learner, always seeking new challenges and opportunities to grow both personally and
+        professionally. I strongly believe in the power of networking and collaboration to drive meaningful change.
+
+        Feel free to reach out to me if you would like to connect, collaborate, or discuss exciting opportunities. I am
+        open to exploring new horizons and contributing my skills to projects that align with my expertise.
+        <!-- <img src="./me.png" width="850" height="414" alt="hero banner" class="w-100"> -->
+
+        <!-- <img src="./assets/images/hero-banner-bg3.png" alt="" class="hero-banner-bg"> -->
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- 
+        - #NEWS
+      -->
+
+  <section class="section news" aria-label="our latest news" id="news">
+    <div class="container">
+
+      <p class="section-subtitle" data-reveal="bottom"></p>
+
+      <h2 class="h2 section-title" data-reveal="bottom">
+        <span id="skills" class="span">Skills</span>
+      </h2>
+      <div class="cards">
+        <div class="skill-card">
+          <img src="/assets/images/cpp-logo.png" alt="">
+          <h2>C++</h2>
+        </div>
+        <div class="skill-card">
+          <img src="/assets/images/Azure.png" alt="">
+          <h2>Azure</h2>
+        </div>
+        <div class="skill-card">
+          <img src="/assets/images/java.svg" alt="">
+          <h2>Java</h2>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/images/html.svg" alt="">
+          <h2>HTML</h2>
+        </div>
+        <div class="skill-card">
+          <img src="/assets/images/css.svg" alt="">
+          <h2>CSS</h2>
+        </div>
+        <div class="skill-card">
+          <img src="/assets/images/js.svg" alt="">
+          <h2>JavaScript</h2>
+        </div>
+        <div class="skill-card">
+          <img src="/assets/images/amazon-web-services.svg" alt="">
+          <h2>AWS</h2>
+        </div>
+        <div class="skill-card">
+          <img src="/assets/images/mysql.svg" alt="">
+          <h2>MySQL</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section news" aria-label="our latest news" id="news">
+    <div class="container">
+
+      <p class="section-subtitle" data-reveal="bottom"></p>
+
+      <h2 class="h2 section-title" id="records" data-reveal="bottom">
+        <span id="certification" class="span">Global Certifications</span>
+      </h2>
+
+      <ul class="news-list">
+
+        <li data-reveal="bottom">
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 700; --height: 400;">
+              <img src="./assets/images/az.png" width="800" height="400" loading="lazy"
+                alt="Innovative Business All Over The World." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="https://www.credly.com/badges/6ad581ef-175f-4c29-a64f-641289e23eac/public_url" target="_blank"
+                class="card-tag">VERIFY-AZ900</a>
+
+
+
+            </div>
+
+          </div>
+        </li>
+        <li data-reveal="bottom">
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 700; --height: 400;">
+              <img src="./assets/images/ai.png" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="https://www.credly.com/badges/153bb9d6-bc14-49b3-99a3-1f79e37e9871" target="_blank"
+                class="card-tag">VERIFY-AI900</a>
+            </div>
+
+          </div>
+        </li>
+        <li data-reveal="bottom">
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 700; --height: 400;">
+              <img src="./assets/images/sc.png" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="https://www.credly.com/badges/de1b11b3-a8bf-4f07-8afb-6fe333132399" target="_blank"
+                class="card-tag">VERIFY-SC900</a>
+
+
+
+            </div>
+        </li>
+        <li data-reveal="bottom">
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 700; --height: 400;">
+              <img src="./assets/images/ms.png" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="https://www.credly.com/badges/463b48bc-c8eb-498a-a64a-723185950d92/public_url" target="_blank"
+                class="card-tag">VERIFY-MS900</a>
+
+
+
+            </div>
+        </li>
+        <li data-reveal="bottom">
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 700; --height: 400;">
+              <img src="./assets/images/dp.png" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="https://www.credly.com/badges/1ae01949-4f13-42f6-8c7e-8c747de05fc8" target="_blank"
+                class="card-tag">VERIFY-DP900</a>
+
+
+
+            </div>
+        </li>
+        <li data-reveal="bottom">
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 700; --height: 400;">
+              <img src="./assets/images/digi.png" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="https://drive.google.com/file/d/1Up7E-xYqvOB3KBknqLDFeesID2wSEO1d/view?usp=sharing"
+                target="_blank" class="card-tag">VERIFY-Digi Marketing</a>
+
+
+
+            </div>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- 
+        internships
+      -->
+
+  <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
+    <div class="container">
+
+      <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
+        Work Experience
+      </p>
+
+      <h2 class="h2 section-title" data-reveal="bottom">
+        <br><span id="internships" class="span">Internships</span>
+      </h2>
+    </div>
+    <section class="section news" aria-label="our latest news" id="news">
+      <div class="container">
+        <div class="cards">
+          <div class="skill-card">
+            <h1>Bhopal Municipal Corporation</h1>
+            <h5>in association with AICTE</h5>
+            <p style="font-size: 14px;">The Bhopal Municipal Corporation serves as a governing body for Bhopal, the
+              cpital city of the Indian
+              state of Madhya Prdesh,During this internship I've worked on website which BMC specially ICCC uses for
+              monitoring and tracking the various activities which happens under BMC</p>
+          </div>
+          <div class="skill-card">
+            <h1>MathWorks</h1>
+            <h5>in association with AICTE</h5>
+            <p style="font-size: 14px;">MathWorks is the company behind MATLAB, a leading technical computing software
+              used across various industries and academia. During this internship, I've learned and developed several
+              projects on cutting edge technologies like machine learning and image processing</p>
+          </div>
+          <div class="skill-card">
+            <h1>RamRaj Tech</h1>
+            <h5>Bhopal</h5>
+            <p style="font-size: 14px;">One of the leading IT company in Bhopal. I gained hands-on experiencein C++
+              programming, honing my skills through practical applications in various projects. I developed a proficient
+              understanding of C++ concepts and successfully implemented them to create impactful projects </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <!-- Projects --> 
+  <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
+    <div class="container">  
+      <h2 class="h2 section-title" data-reveal="bottom">
+        <br><span id="projects" class="span">Projects</span>
+      </h2>
+      </div> 
+      </section>
+  <div id="page3"> 
+    <div id="elem-container">
+        <div id="elem1" class="elem"
+            data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="overlay"></div>
+            <h2>OUTWIT GAMING DC SERVER - Startup Project</h2>
+        </div>
+        <div class="elem"
+            data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8">
+            <div class="overlay"></div>
+            <h2>Website for GAMING DC Server - Wev Dev</h2>
+        </div>
+        <div class="elem"
+            data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="overlay"></div>
+            <h2>A.I. ASSISTANT - C++</h2>
+        </div>
+        <div class="elem"
+            data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D">
+            <div class="overlay"></div>
+            <h2>Advanced RGPV result making system - C++</h2>
+        </div>
+        <div class="elem"
+            data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="overlay"></div>
+            <h2>Hospital Management Website - Web Dev</h2>
+        </div>
+        <div class="elem"
+            data-image="https://images.unsplash.com/photo-1700601437860-e66da79cf6d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D">
+            <div class="overlay"></div>
+            <h2>Business Pay - React Native</h2>
+        </div>
+    </div>
+</div>
+
+
+  </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="footer" class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./potfolio logo.png" width="150" height="73" loading="lazy" alt="Unigine logo">
+          </a>
+
+          <p class="footer-text">
+            Crafting innovative code, forging tomorrow's tech.
+          </p>
+
+          <ul class="social-list">
+            <!-- 
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li> -->
+
+            <li>
+              <a href="https://discord.gg/yY6EDg4UG3" target="_blank" class="social-link">
+                <ion-icon name="logo-DISCORD"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/anandsoni992" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li> 
+            
+            <li>
+              <a href="https://www.github.com/Anandsoni992" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Usefull Links</p>
+
+          <ul>
+
+            <li>
+              <a href="https://www.github.com/Anandsoni992" target="_blank" class="footer-link">Github</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/anandsoni992" target="_blank" class="footer-link">Linkedin</a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/anandsoni992?igsh=d3pwN2tsdHl3ZmN3"  target="_blank" class="footer-link">Instagram</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p id="volunteer" class="title footer-list-title has-after">Volunteering Activities</p>
+
+          <div class="contact-item">
+            <span class="span">IIC - Institute Innovation Council</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Technical Assistant- National Games</span>
+
+            <!-- <a href="mailto:Info@unigine.com" class="contact-link">Info@unigine.com</a> -->
+          </div>
+
+          <div class="contact-item">
+            <span class="span">WICCI - Volunteer</span>
+
+            <!-- <a href="tel:+12345678910" class="contact-link">+1 (234) 567-8910</a> -->
+          </div>
+          <div class="contact-item">
+            <span class="span">EPA - Emerging Professional Association Member</span>
+
+            <!-- <a href="tel:+12345678910" class="contact-link">+1 (234) 567-8910</a> -->
+          </div>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">CONTACT Me</p>
+
+          <!-- <form action="./index.html" method="get" class="footer-form"> -->
+          <!-- <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off" -->
+          <!-- class="input-field"> -->
+
+          <!-- <button type="submit" class="btn" data-btn>Subscribe Now</button> -->
+          <!-- </form> -->
+          <div class="contact-item">
+            <span class="span">EMAIL: </span>
+            anandsoni9165@gmail.com
+            <div class="contact-item">
+              <span class="span">LinkedIn</span>
+              @anandsoni992
+
+              <!-- <a href="tel:+12345678910" class="contact-link">+1 (234) 567-8910</a> -->
+            </div>
+
+            <!-- <a href="tel:+12345678910" class="contact-link">+1 (234) 567-8910</a> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; All Rights Reserved.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./aboutdev.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
